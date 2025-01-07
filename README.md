@@ -68,24 +68,6 @@ Open your browser and visit http://localhost:3000 to view the feedback form. Fil
 6. View Feedback Data
 The feedback data will be stored in the feedback_data.xlsx file in the backend directory.
 
-File Structure
-bash
-Copy code
-feedback-form/
-│
-├── frontend/               # React frontend code
-│   ├── src/                # React components and assets
-│   └── package.json        # React dependencies
-│
-├── backend/                # Express backend code
-│   ├── server.js           # Express server file
-│   ├── feedback_data.xlsx  # Excel file for storing feedback
-│   └── package.json        # Backend dependencies
-│
-└── README.md               # Project documentation
-API Endpoints
-POST /submit
-Description: Submits feedback data.
 
 Request Body:
 
